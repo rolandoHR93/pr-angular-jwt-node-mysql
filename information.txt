@@ -1,0 +1,61 @@
+-----------
+27-10-2021
+
+Angular 12 Login and Registration example with JWT & Web Api
+
+https://www.bezkoder.com/angular-12-jwt-auth/
+-----------
+Technology
+
+– Angular 12
+– RxJS 6
+– Angular CLI 12
+-----------
+
+Setup Angular 12 Project:
+
+Let’s open cmd and use Angular CLI to create a new Angular Project as following command:
+
+ng new Angular12JwtAuth
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+
+We also need to generate some Components and Services:
+
+ng g s _services/auth
+ng g s _services/token-storage
+ng g s _services/user
+
+ng g c login
+ng g c register
+ng g c home
+ng g c profile
+ng g c board-admin
+ng g c board-moderator
+ng g c board-user
+
+-----------
+Aquii:
+
+It configures CORS for port 8081, so you have to run command: ng serve --port 8081 instead.
+> ng serve --port 8081
+
+
+run
+> ng serve
+
+-----------
+Repositorio Original:
+
+https://github.com/bezkoder/angular-12-jwt-authentication
+
+>git clone
+>npm i
+> ng serve --port 8081
+
+-----------
+
+
+-----------
+
+-----------
